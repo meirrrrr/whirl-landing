@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 170px 120px 170px;
+}
+
+header {
+  margin: 30px 0 50px 0;
+  height: 75px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-left ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-weight: 300;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sign-in-button {
+  border: none;
+  font-size: 15px;
+  background: white;
+  color: #0070a0;
+  text-decoration: none;
+}
+
+.optional-button {
+  border: none;
+  background: #0070a0;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.container-left {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.container-left h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 63.8px;
+}
+
+.container-left_pp {
+  display: flex;
+  justify-content: start;
+  width: 350px;
+  max-width: 100%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-left p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.container-left__but {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bigger {
+  padding: 12px 30px;
+  font-weight: 300;
+}
+
+.optional-buton__container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-logos {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.container-logos h2 {
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+}
+
+.container-logos__comp {
+  display: flex;
+  gap: 60px;
+  padding-right: 6px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  margin-bottom: 120px;
+}
+
+.card {
+  width: 350px;
+  max-width: 100%;
+  padding: 40px 30px;
+}
+
+.card h3 {
+  font-family: "Fraunces", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.card1 {
+  background: #faea73;
+}
+
+.card2 {
+  background: #cceff6;
+}
+
+.card3 {
+  background: #f7cedc;
+}
+
+.container-about {
+  display: flex;
+  gap: 150px;
+}
+
+.container-about__left h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+}
+
+.big {
+  font-size: 42px;
+  display: block;
+  white-space: nowrap;
+}
+
+.small {
+  font-size: 41px;
+}
+
+.container-about__right {
+  display: flex;
+  gap: 50px;
+}
+
+.box {
+  width: 200px;
+}
+
+.box h3 {
+  font-family: "Fraunces", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1;
+  line-height: 24px;
+}
